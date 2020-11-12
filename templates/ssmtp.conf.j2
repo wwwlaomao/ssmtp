@@ -7,7 +7,7 @@ Root={{ sansible_ssmtp_mailserver_root }}
 RewriteDomain={{ sansible_ssmtp_mailserver_rewritedomain }}
 {% endif %}
 {% if sansible_ssmtp_mailserver_fromlineoverride != false %}
-FromLineOverride={{ sansible_ssmtp_mailserver_fromlineoverride }}
+FromLineOverride=Yes
 {% endif %}
 {% if sansible_ssmtp_use_tls %}
 UseTLS=Yes
