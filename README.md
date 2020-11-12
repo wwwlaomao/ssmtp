@@ -47,4 +47,7 @@ To simply install SSMTP for a mailhost:
       sansible_ssmtp_mailserver_password: password
       sansible_ssmtp_mailserver_port: 25
       sansible_ssmtp_mailserver_username: username
+      sansible_revaliases_users:
+        - user1
+        - user2
 ```
